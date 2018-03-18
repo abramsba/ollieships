@@ -98,7 +98,7 @@ To create your own AI create a javascript class which has implementations for th
 
 When it is the player's turn the engine will call decision and provide a callback for decide. 
 
-### `confirmed(turn, position, hit)`
+#### `confirmed(turn, position, hit)`
 
 * `turn`: integer, how many shots have been fired
 * `position`: object `{x:integer, y:integer}`, the position that was supplied
@@ -106,13 +106,17 @@ When it is the player's turn the engine will call decision and provide a callbac
 
 Called from the engine to report back to the AI the status of the last shot.
 
-### `denied(turn, position, decide)`
+#### `denied(turn, position, decide)`
 
 * `turn`: integer, how many shots have been fired
 * `position`: object `{x:integer, y:integer}`, the position that was not permitted
 * `decide`: function, call when new choice is ready
 
 ### Testing
+
+`yarn run test`
+
+Or
 
 ```js
 const Ollieships = require('ollieships')

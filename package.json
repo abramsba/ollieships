@@ -1,0 +1,12 @@
+{
+  "name": "ollieships",
+  "version": "0.0.1",
+  "description": "Battleships played with Node.js",
+  "main": "index.js",
+  "repository": "https://github.com/abramsba/ollieships",
+  "author": "Bryan Abrams <bryan.abrams@oliver-it.nl>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  }
+}

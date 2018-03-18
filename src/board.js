@@ -179,7 +179,7 @@ class board {
         if ( this._readyForEngine() ) {
             var yrows = []
             for(var c = 0; c < 10; c++) {
-                yrows.push("..........")
+                yrows.push("~~~~~~~~~~")
             }
             let keys = Object.keys(this.shipPositions)
             for(var i = 0; i < keys.length; i++) {

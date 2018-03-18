@@ -1,5 +1,6 @@
 
 const board = require("./board.js")
+const defaultReport = require('./report.js')
 
 class game {
 
@@ -32,7 +33,7 @@ class game {
         return false
     }
 
-    runGame(done=console.log) {
+    runGame(done=defaultReport) {
         this._playerTurn(this.p1, this.p2, done)
     }
 

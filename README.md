@@ -3,7 +3,7 @@
 
 Battleship, except played with robots instead of by humans. The implementation is similar to 'tik-tak-toe', however the behavior of this engine is recursive. Participants will create callback functions as well as execute one in order to play.
 
-![image](https://i.imgur.com/870scGM.png)
+![image](https://i.imgur.com/EgXNcBB.png)
 
 ## Install
 
